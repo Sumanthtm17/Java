@@ -1,0 +1,96 @@
+class Sample
+{
+	static double triangle()
+	{
+		int b=8;
+		int h=10;
+		double res1=0.5*b*h;
+		return res1;
+	}
+	static int rectangle()
+	{
+		int w=10;
+		int h=5;
+		int res2=w*h;
+		return res2;
+	}
+	static double trapezoid()
+	{
+		int a=10;
+		int b=18;
+		int h=5;
+		double res3=0.5*(a+b)*h;
+		return res3;
+	}
+	static double ellipse()
+	{
+		int a=5;
+		int b=5;
+		final double pi=3.142;
+		double res4=pi*a*b;
+		return res4;
+	}
+	static int square()
+	{
+		int a=5;
+		int res5=a*a;
+		return res5;
+	}
+	static int parallelogram()
+	{
+		int b=10;
+		int h=5;
+		int res6=b*h;
+		return res6;
+	}
+	static double circle()
+	{
+		int r=5;
+		final double pi=3.142;
+		double res7=pi*r*r;
+		return res7;
+	}
+	static double sector()
+	{
+		int r=5;
+		double t=30.5;
+		double res8=0.5*r*r*t;
+		return res8;
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Area of Triangle");
+		double x=triangle();
+		System.out.println(x);
+
+		System.out.println("Area of Rectangle");
+		int y=rectangle();
+		System.out.println(y);
+
+		System.out.println("Area of Trapezoid");
+		double z=trapezoid();
+		System.out.println(z);
+
+		System.out.println("Area of Ellipse");
+		double s=ellipse();
+		System.out.println(s);
+
+		System.out.println("Area of Square");
+		double t=square();
+		System.out.println(t);
+
+		System.out.println("Area of Parallelogram");
+		double u=parallelogram();
+		System.out.println(u);
+
+		System.out.println("Area of Circle");
+		double v=circle();
+		System.out.println(v);
+
+		System.out.println("Area of Sector");
+		double w=sector();
+		System.out.println(w);
+		
+	}
+}
